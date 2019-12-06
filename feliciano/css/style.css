@@ -31,8 +31,8 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  --font-family-sans-serif: 'Tajawal', sans-serif;
+  --font-family-monospace: 'Tajawal', sans-serif; }
 
 *,
 *::before,
@@ -41,7 +41,7 @@
   box-sizing: border-box; }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Tajawal', sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
@@ -51,7 +51,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Tajawal', sans-serif;;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -153,7 +153,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: 'Tajawal', sans-serif;
   font-size: 1em; }
 
 pre {
@@ -202,7 +202,7 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: inherit;
+  font-family: 'Tajawal', sans-serif;
   font-size: inherit;
   line-height: inherit; }
 
@@ -4884,7 +4884,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Tajawal', sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -4969,7 +4969,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Tajawal', sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -8133,7 +8133,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 body {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   background: #fff;
   font-size: 17px;
   line-height: 2;
@@ -8462,7 +8462,7 @@ h1, h2, h3, h4, h5,
           font-size: 80px;
           color: #c8a97e;
           font-weight: normal;
-          font-family: "Great Vibes", cursive;
+          font-family: 'Tajawal', sans-serif;
           margin-bottom: 0;
           line-height: 1; }
         .owl-carousel.home-slider .slider-item .slider-text h1 {
@@ -8470,7 +8470,7 @@ h1, h2, h3, h4, h5,
           color: #fff;
           line-height: 1.5;
           font-weight: normal;
-          font-family: "Poppins", Arial, sans-serif;
+          font-family: 'Tajawal', sans-serif;
           letter-spacing: 4px;
           text-transform: uppercase;
           font-weight: 600; }
@@ -9248,7 +9248,7 @@ textarea.form-control {
     color: rgba(0, 0, 0, 0.2);
     color: #c8a97e;
     line-height: 1;
-    font-family: "Great Vibes", cursive;
+    font-family: 'Tajawal', sans-serif;
     margin-top: 0;
     z-index: -1; }
     @media (max-width: 767.98px) {
